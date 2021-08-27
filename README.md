@@ -1,2 +1,2 @@
 **Here are scripts that I wrote while working on Genome Research paper.**
-<img src=./GC_AveragePlot.jpg width=300  hspace="20"> <img src=./GC_Heatmap.jpg width=200> 
+<img src=./Image_1.jpg width=300> 
