@@ -1,2 +1,2 @@
 **Here are scripts that I wrote while working on Genome Research paper.**
-<img src=./Image_1.jpg width=300> 
+<img src=./Image_1.jpg> 
