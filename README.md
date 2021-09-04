@@ -10,4 +10,4 @@ To visualize GC content
 ``Plot_GC_Content.R -- file_name worm_TAS.fasta --regionLength 2000 -- binSize 50 – numberOfHexbins 100 -- sortRegionSize 0 -- out_file_name worm_TAS ``
 
 Below is GC content plotted for TESs in *C. elegans* using above command.
-<img src=./Image_1.jpg> 
+<img src=./TES_heatmap_plot.png> 
