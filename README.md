@@ -17,3 +17,8 @@ To sort genomic features by GC content
 
 Below is GC content plotted for TSSs in *C. elegans* using above command sorted by GC %
 <img src=./GC_Heatmap_Promoters_400.jpg> 
+
+To estimate GC bias 
+
+``Plot_GC_Bias.R -- genome_file_name genomic_01.fa -- seq_file_name atac_coding_promoter.fasta –window 200``
+<img src=./TSS_coding_GC_bias.jpg> 
