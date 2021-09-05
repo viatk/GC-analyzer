@@ -7,13 +7,13 @@ Scripts that I wrote for analyzing GC content of genomic features. These scripts
 
 **To visualize GC content**
 
-``Plot_GC_Content.R -- file_name worm_TAS.fasta --regionLength 2000 -- binSize 50 – numberOfHexbins 100 -- sortRegionSize 0 -- out_file_name worm_TAS ``
+``Plot_GC_Content.R -- file_name worm_TAS.fasta --regionLength 2000 -- binSize 50 – numberOfHexbins 100 --label TES -- sortRegionSize 0 -- out_file_name worm_TAS ``
 
 Below is GC content plotted for TESs in *C. elegans* using above command. As you can see from the plot, TESs are highly AT rich.
 <img src=./TES_heatmap_plot.png> 
 **To sort genomic features by GC content**
 
-``Plot_GC_Content.R -- file_name worm_TAS.fasta --regionLength 2000 -- binSize 50 – numberOfHexbins 100 -- sortRegionSize 400 -- out_file_name worm_TAS ``
+``Plot_GC_Content.R -- file_name worm_TAS.fasta --regionLength 2000 -- binSize 50 – numberOfHexbins 100 --label TSS -- sortRegionSize 400 -- out_file_name worm_TAS ``
 
 Below is GC content plotted for TSSs in *C. elegans* using above command sorted by GC %. All TSSs have GC content higher than surrounding sequence.
 
