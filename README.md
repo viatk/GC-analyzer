@@ -25,6 +25,6 @@ Below is GC content plotted for TSSs in *C. elegans* using above command sorted 
 
 Below is a plot comparing distribution of GC % of *C. elegans* TSSs to all the genomic sequences of the same length. *C. elegans TSSs* are significantly more GC rich than the rest of the genome.
 
-<img src=./TSS_coding_GC_bias.jpg> 
+<img src=./atac_coding_GC_bias.jpg> 
 
 **To generate set of random sequences with GC% similar to genomic features**
