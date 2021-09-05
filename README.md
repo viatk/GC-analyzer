@@ -17,7 +17,7 @@ Below is GC content plotted for TESs in *C. elegans* using above command. As you
 
 Below is GC content plotted for TSSs in *C. elegans* using above command sorted by GC %. All TSSs have GC content higher than surrounding sequence.
 
-<img src=./GC_Heatmap_Promoters_400.jpg> 
+<img src=./GC_Heatmap_Promoters_400.png> 
 
 **To estimate GC bias**
 
