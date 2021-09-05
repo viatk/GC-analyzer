@@ -16,3 +16,4 @@ To sort genomic features by GC content
 ``Plot_GC_Content.R -- file_name worm_TAS.fasta --regionLength 2000 -- binSize 50 – numberOfHexbins 100 -- sortRegionSize 400 -- out_file_name worm_TAS ``
 
 Below is GC content plotted for TSSs in *C. elegans* using above command sorted by GC %
+<img src=./GC_Heatmap_Promoters_400.jpg> 
