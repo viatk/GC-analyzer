@@ -3,7 +3,8 @@ Scripts that I wrote for analyzing GC content of genomic features. These scripts
 
 **Motivation:** Functional genomic elements such as, transcription start sites (TSS) or transcription end sites (TES), frequently have unusual GC content. It is important to take this into account when developing new NGS methods as many techniques themselves have AT/GC bias. The following scripts visualize GC content as a heatmap and as an average plot, estimate GC content bias of the functional elements of interest and generate random sequences of specified content for a control dataset.
 
-**Usage:**
+**Usage Plot_GC_Content.R**
+
 Options:
 
         -f CHARACTER, --file=CHARACTER
