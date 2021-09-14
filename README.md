@@ -30,7 +30,7 @@ Options:
 
 **To visualize GC content**
 
-``Rscript Plot_GC_Content.R --file worm_TAS.fasta --regionLength 2000 --binSize 50 --label "TSS" --sortRegionSize 0 --numberOfHexbins 100 ``
+``Rscript Plot_GC_Content.R --file worm_TES.fasta --regionLength 2000 --binSize 50 --label "TSS" --sortRegionSize 0 --numberOfHexbins 100 ``
 
 Below is GC content plotted for TESs in *C. elegans* using above command. As you can see from the plot, TESs are highly AT rich.
 <img src=./TES_heatmap_plot.png> 
