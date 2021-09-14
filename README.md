@@ -33,21 +33,34 @@ Options:
 ``Rscript Plot_GC_Content.R --file worm_TES.fasta --regionLength 2000 --binSize 50 --label "TSS" --sortRegionSize 0 --numberOfHexbins 100 ``
 
 Below is GC content plotted for TESs in *C. elegans* using above command. As you can see from the plot, TESs are highly AT rich.
-<img src=./TES_heatmap_plot.png> 
+<img src=./images/TES_heatmap_plot.png> 
 **To sort genomic features by GC content**
 
 ``Rscript Plot_GC_Content.R --file atac_coding_promoter.fasta --regionLength 2000 --binSize 50 --label "TSS" --sortRegionSize 300 --numberOfHexbins 100 ``
 
 Below is GC content plotted for TSSs in *C. elegans* using above command sorted by GC %. All TSSs have GC content higher than surrounding sequence.
 
-<img src=./GC_Heatmap_Promoters_400.png> 
+<img src=./images/GC_Heatmap_Promoters_400.png> 
 
 **To estimate GC bias**
+
+Options:
+
+        -g CHARACTER, --genome_file=CHARACTER
+                file with genome sequence
+
+        -f CHARACTER, --file=CHARACTER
+                file with sample sequences
+
+        -w INTEGER, --window=INTEGER
+                size of the window to compare GC%
+
+        -h, --help
+                Show this help message and exit
 
 ``Plot_GC_Bias.R -- genome_file_name genomic_01.fa -- seq_file_name atac_coding_promoter.fasta –window 200``
 
 Below is a plot comparing distribution of GC % of *C. elegans* TSSs to all the genomic sequences of the same length. *C. elegans TSSs* are significantly more GC rich than the rest of the genome.
 
-<img src=./atac_coding_GC_bias.jpg> 
+<img src=./images/atac_coding_GC_bias.jpg> 
 
-**To generate set of random sequences with GC% similar to genomic features**
